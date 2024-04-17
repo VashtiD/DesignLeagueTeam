@@ -41,4 +41,19 @@ h1, h2, h3, .tittle{
 .tittle{
   color: var(--accent-color);
 }
+.wapper{
+  display: flex;
+  flex-direction:column;
+  justify-content:center;
+  width: calc(100vw / var(--g-ratio));
+  height: 100vh;
+  min-width: 800px;
+  margin: 0 auto;
+  background-color: inherit;
+}
+  
+
+
+
+
 
