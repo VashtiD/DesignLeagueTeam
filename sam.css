@@ -12,5 +12,9 @@
 
 :root{
   --accent-color: #34495e;
+  --bg-color: #ecf0f1;
+  --main-font: "Cormorant Garamond", sans-serif;
+  --sub-font:"arial", sans serif;
+  --g-ratio: 1.618
   
 }
