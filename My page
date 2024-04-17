@@ -14,7 +14,23 @@
 </head>
   <body>
     <h1>MY space </h1>
-    <p>My role is the Time Manager </p>
+    <div class="wrapper">
+     <div class="top-container">
+      <div class="lab-info">
+      <h3>Date</h3>
+      <h3> Lab sound and avatar JS</h3>
+      </div>
+      <div class="btns-container">
+      <button onclick="promptUser()">New Avatar</button>
+     </div>
+     </div>
+     
+     <!--CONTENT-->
+ <div class="content">
+    
+   </div>
+   </div>
+<script src="yourName.js></script>
     <img src="" alt="Samuel">
   </body>
 </head>
