@@ -77,6 +77,25 @@ h1, h2, h3, .tittle{
   position: relative;
 }
 
+button {
+  background-color: transparent;
+  border: 2px solid var(--accent-color);
+  color: var(--accent-color);
+  font-size: 2rem;
+  padding: 0.25em 1em;
+}
+#btnCoin,
+#btnPipe,
+#btnPowerUp {
+  transition: all ease 100ms;
+  outline: none !important;
+}
+img{
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+}
 
 
 
