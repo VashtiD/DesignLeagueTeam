@@ -54,6 +54,29 @@ h1, h2, h3, .tittle{
   /*Main Content
 ===============*/
 
+.top-cantainer {
+  display: flex;
+  width: 100%;
+}
+
+.lab-info {
+  width: 50%;
+}
+
+.content {
+  margin-top: 2rem;
+  width: 100%;
+  min-height: 500px;
+  position: relative;
+  border: 2px solid #ccc;
+}
+.btns-container {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+
 
 
 
