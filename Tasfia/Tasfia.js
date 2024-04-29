@@ -20,3 +20,19 @@ function Sfx(src) {
   this.sound = document.createElement('audio');
   this.sound.src = src;
   this.sound.setAttribute('preload', 'auto');
+  this.sound.style.diaply= 'none';
+  document.body.appendChild(this.sound);
+  this.play = function() {
+    this.sound.play();
+  };
+}
+
+function Ninjas(name, age, height, color) {
+  this.name = name;
+  this.age = age;
+  this.height = height;
+  this.color = color;
+
+this.coin = () => {
+  //audio
+  coinSfx.play();
